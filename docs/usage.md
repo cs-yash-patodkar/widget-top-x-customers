@@ -56,7 +56,7 @@ Select the field (the field must be of type `JSON`).
   In the field, "Enter the key of object to be rendered" contains the main key of the object "topXbyIncidents", if there is no key for the object leave the field blank.
 
 #### Advanded Settings:
-For this feature to work, user need to add a Widget with Broadcasting capability in the same dashboard. eg. (Record Summary Card Widget).
+For this feature to work, user needs to add a Widget with Broadcasting capability in the same dashboard. eg. (Record Summary Card Widget).
 
 Update content on receiving event:
 This toggle button emables the Top X widget to Listen to an on-click event, broadcasted by another widget eg. Record Summary Card.
