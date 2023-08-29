@@ -77,7 +77,7 @@
                 var dataArray = Object.entries(data);
                 dataArray.sort((a, b) => b[1] - a[1]);
                 _dataSource = {};
-                for (var index = 1; index <= Math.min(3, dataArray.length); index++) {
+                for (var index = 1; index <= Math.min(_config.queryLimit, dataArray.length); index++) {
                     _dataSource[dataArray[index - 1][0]] = $filter('numberToDisplay')(dataArray[index - 1][1]);
                 }
             }
